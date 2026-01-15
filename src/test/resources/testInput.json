@@ -1,0 +1,152 @@
+[
+  {
+    "numInstances": 5,
+    "numRectangles": 900,
+    "minWidth": 10,
+    "maxWidth": 30,
+    "minHeight": 10,
+    "maxHeight": 30,
+    "boxLength": 100,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 1000,
+    "minWidth": 10,
+    "maxWidth": 30,
+    "minHeight": 10,
+    "maxHeight": 30,
+    "boxLength": 100,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 150,
+    "minWidth": 10,
+    "maxWidth": 20,
+    "minHeight": 10,
+    "maxHeight": 20,
+    "boxLength": 120,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 200,
+    "minWidth": 1,
+    "maxWidth": 20,
+    "minHeight": 1,
+    "maxHeight": 20,
+    "boxLength": 100,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 300,
+    "minWidth": 10,
+    "maxWidth": 20,
+    "minHeight": 10,
+    "maxHeight": 20,
+    "boxLength": 150,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 400,
+    "minWidth": 10,
+    "maxWidth": 30,
+    "minHeight": 1,
+    "maxHeight": 3,
+    "boxLength": 80,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 500,
+    "minWidth": 1,
+    "maxWidth": 30,
+    "minHeight": 1,
+    "maxHeight": 30,
+    "boxLength": 100,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 600,
+    "minWidth": 5,
+    "maxWidth": 15,
+    "minHeight": 5,
+    "maxHeight": 15,
+    "boxLength": 90,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 750,
+    "minWidth": 4,
+    "maxWidth": 12,
+    "minHeight": 4,
+    "maxHeight": 12,
+    "boxLength": 60,
+    "difficulty": "hard"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 10,
+    "minWidth": 3,
+    "maxWidth": 6,
+    "minHeight": 3,
+    "maxHeight": 6,
+    "boxLength": 50,
+    "difficulty": "easy"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 25,
+    "minWidth": 2,
+    "maxWidth": 5,
+    "minHeight": 2,
+    "maxHeight": 5,
+    "boxLength": 50,
+    "difficulty": "easy"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 50,
+    "minWidth": 5,
+    "maxWidth": 10,
+    "minHeight": 5,
+    "maxHeight": 10,
+    "boxLength": 50,
+    "difficulty": "medium"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 80,
+    "minWidth": 3,
+    "maxWidth": 6,
+    "minHeight": 3,
+    "maxHeight": 6,
+    "boxLength": 90,
+    "difficulty": "medium"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 100,
+    "minWidth": 5,
+    "maxWidth": 15,
+    "minHeight": 5,
+    "maxHeight": 15,
+    "boxLength": 100,
+    "difficulty": "medium"
+  },
+  {
+    "numInstances": 5,
+    "numRectangles": 250,
+    "minWidth": 5,
+    "maxWidth": 10,
+    "minHeight": 5,
+    "maxHeight": 10,
+    "boxLength": 45,
+    "difficulty": "medium"
+  }
+]

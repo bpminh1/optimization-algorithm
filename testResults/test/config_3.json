@@ -1,0 +1,223 @@
+{
+  "config" : {
+    "numInstances" : 5,
+    "numRectangles" : 200,
+    "minWidth" : 1,
+    "maxWidth" : 20,
+    "minHeight" : 1,
+    "maxHeight" : 20,
+    "boxLength" : 100,
+    "difficulty" : "hard"
+  },
+  "result" : [ {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 8,
+    "objectiveValue" : 8.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0151282051282053,
+    "time" : 0.466873583
+  }, {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0153600227262674,
+    "time" : 10.000645417
+  }, {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0216138671619226,
+    "time" : 4.153060375
+  }, {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.017670809754207,
+    "time" : 0.004101833
+  }, {
+    "instanceSeed" : 72,
+    "instanceIdx" : 0,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.015332761709573,
+    "time" : 0.003714292
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 8,
+    "objectiveValue" : 8.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0150096280531065,
+    "time" : 0.427481791
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.015000753806724,
+    "time" : 10.004672125
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.020705629731999,
+    "time" : 4.224636208
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0187718304540736,
+    "time" : 0.004925208
+  }, {
+    "instanceSeed" : 73,
+    "instanceIdx" : 1,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0157713898567557,
+    "time" : 0.003896541
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 8,
+    "objectiveValue" : 8.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0151178883441,
+    "time" : 0.483336875
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.015363382250175,
+    "time" : 10.000371042
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0241074899942824,
+    "time" : 3.972186291
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0186921210777795,
+    "time" : 0.003895166
+  }, {
+    "instanceSeed" : 74,
+    "instanceIdx" : 2,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.015758305365047,
+    "time" : 0.003882917
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 8,
+    "objectiveValue" : 8.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0150363460222613,
+    "time" : 0.427607125
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0159175479827653,
+    "time" : 10.001301875
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.024788242995162,
+    "time" : 4.071329125
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.017433102959419,
+    "time" : 0.004163
+  }, {
+    "instanceSeed" : 75,
+    "instanceIdx" : 3,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.016828901551124,
+    "time" : 0.003739125
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 8,
+    "objectiveValue" : 8.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.015020743145743,
+    "time" : 0.428265667
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0151835963995675,
+    "time" : 10.001010291
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.02151746888589,
+    "time" : 3.785916625
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0186374677584955,
+    "time" : 0.003999792
+  }, {
+    "instanceSeed" : 76,
+    "instanceIdx" : 4,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 3,
+    "objectiveValue" : 3.0155042876666736,
+    "time" : 0.003897333
+  } ]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CreateProblemController">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1157.3562927246094" minWidth="510.4792175292969" prefWidth="663.2140808105469" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1389.0207824707031" minWidth="742.1437072753906" prefWidth="1236.2859191894531" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="431.1568908691406" minHeight="77.77034759521484" prefHeight="158.62997436523438" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="497.72965240478516" minHeight="144.34310913085938" prefHeight="259.39508056640625" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="505.5685119628906" minHeight="268.979248046875" prefHeight="437.11956787109375" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="134.88043212890625" minHeight="77.97918701171875" prefHeight="134.88043212890625" valignment="CENTER" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Box Parameters:" wrappingWidth="173.21630859375" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rectangles Parameters:" wrappingWidth="171.21630859375" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <GridPane prefWidth="1066.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.rowSpan="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="199.0" minWidth="10.0" prefWidth="94.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="309.0" minWidth="10.0" prefWidth="172.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="309.0" minWidth="10.0" prefWidth="150.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="252.80245971679688" minHeight="10.0" prefHeight="212.46157836914062" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="201.01849365234375" minHeight="10.0" prefHeight="146.53842163085938" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="171.12716674804688" minHeight="8.0" prefHeight="73.8087158203125" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="140.55792236328125" minHeight="0.0" prefHeight="103.41357421875" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="118.216064453125" minHeight="0.0" prefHeight="110.58642578125" valignment="CENTER" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <Label text="Length (L)" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="L" editable="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Label text="No. Rectangles (n)" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Spinner fx:id="n" editable="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Label text="Width" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Spinner fx:id="minWidth" editable="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Spinner fx:id="maxWidth" editable="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Label text="Height" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Spinner fx:id="minHeight" editable="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Spinner fx:id="maxHeight" editable="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Label text="Min" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label text="Max" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </GridPane.margin>
+      </GridPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Define Problem" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Button fx:id="next" mnemonicParsing="false" text="Next" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets bottom="20.0" right="20.0" />
+         </GridPane.margin></Button>
+   </children>
+</GridPane>

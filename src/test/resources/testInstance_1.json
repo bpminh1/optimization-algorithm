@@ -1,0 +1,32 @@
+[
+  {
+    "numInstances": 3,
+    "numRectangles": 20,
+    "minWidth": 3,
+    "maxWidth": 6,
+    "minHeight": 3,
+    "maxHeight": 6,
+    "boxLength": 50,
+    "difficulty": "easy"
+  },
+  {
+    "numInstances": 3,
+    "numRectangles": 50,
+    "minWidth": 5,
+    "maxWidth": 10,
+    "minHeight": 5,
+    "maxHeight": 10,
+    "boxLength": 60,
+    "difficulty": "easy"
+  },
+  {
+    "numInstances": 3,
+    "numRectangles": 100,
+    "minWidth": 5,
+    "maxWidth": 15,
+    "minHeight": 5,
+    "maxHeight": 15,
+    "boxLength": 80,
+    "difficulty": "medium"
+  }
+]

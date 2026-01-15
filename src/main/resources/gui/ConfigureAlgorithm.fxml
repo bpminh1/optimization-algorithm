@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ConfigureAlgorithmController">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="826.530029296875" minWidth="10.0" prefWidth="642.635498046875" />
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="682.9905395507812" minWidth="10.0" prefWidth="637.864501953125" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="724.434326171875" minHeight="10.0" prefHeight="126.40911102294922" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="724.434326171875" minHeight="10.0" prefHeight="148.600341796875" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="675.6586456298828" minHeight="10.0" prefHeight="567.899658203125" valignment="CENTER" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Choose an Algorithm" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <GridPane GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1165.1824951171875" minWidth="10.0" prefWidth="642.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="653.4742431640625" minWidth="10.0" prefWidth="639.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="350.5657043457031" minHeight="10.0" prefHeight="76.32247924804688" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="542.7445983886719" minHeight="0.0" prefHeight="86.41595458984375" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="542.7445983886719" minHeight="10.0" prefHeight="85.86447143554688" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="542.7445983886719" minHeight="10.0" prefHeight="89.63552856445312" valignment="CENTER" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <Label text="Local Search" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label text="Greedy Algorithms" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="GeometryBased" mnemonicParsing="false" text="Geometry Based" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="Permutation" mnemonicParsing="false" text="Permutation" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="PartialOverlap" mnemonicParsing="false" text="Partially Overlap" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="MaxArea" mnemonicParsing="false" text="Max Area First" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="MaxSide" mnemonicParsing="false" text="Max Side First" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </GridPane>
+      <Text fx:id="problemInfo" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="JUSTIFY" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="backButton" mnemonicParsing="false" text="Back" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</GridPane>

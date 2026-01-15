@@ -1,0 +1,97 @@
+{
+  "config" : {
+    "numInstances" : 2,
+    "numRectangles" : 500,
+    "minWidth" : 5,
+    "maxWidth" : 20,
+    "minHeight" : 5,
+    "maxHeight" : 20,
+    "boxLength" : 100,
+    "difficulty" : "hard"
+  },
+  "result" : [ {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 20,
+    "objectiveValue" : 20.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 10,
+    "objectiveValue" : 10.020099153061778,
+    "time" : 10.060670541
+  }, {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.018010524658814,
+    "time" : 10.003574667
+  }, {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.018990572350845,
+    "time" : 8.488868375
+  }, {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.022587251671435,
+    "time" : 0.017646917
+  }, {
+    "instanceSeed" : 52,
+    "instanceIdx" : 0,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.019792788776149,
+    "time" : 0.016198083
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Initial Solution",
+    "usedBoxes" : 20,
+    "objectiveValue" : 20.04,
+    "time" : 0.0
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Geometry Based",
+    "usedBoxes" : 10,
+    "objectiveValue" : 10.020104178112351,
+    "time" : 1.18512525
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Permutation Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.01800784712662,
+    "time" : 10.002595166
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Partial Overlap",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.018739458301095,
+    "time" : 8.913207791
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Greedy Area Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.022824613953563,
+    "time" : 0.017467
+  }, {
+    "instanceSeed" : 53,
+    "instanceIdx" : 1,
+    "algorithm" : "Greedy Max Side Based",
+    "usedBoxes" : 9,
+    "objectiveValue" : 9.020633353149234,
+    "time" : 0.015675041
+  } ]
+}
