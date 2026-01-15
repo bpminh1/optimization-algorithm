@@ -42,6 +42,7 @@ The project is implemented in **Java** and uses **Maven** as the build tool.
                     ├── core         # Abstract interfaces for search algorithms
                     ├── problem      # Packing problem implementation
                 ├── controller       # Main application logic
+                ├── Main.java        # Main entry point
         ├── resources
             ├── gui                  # GUI resources (JavaFX)
     ├── test
